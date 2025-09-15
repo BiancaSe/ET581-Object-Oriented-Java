@@ -31,14 +31,14 @@ public class NumberStats {          // declaring the public class
         int min = numbers[0];
         int max = numbers[0];
 
-        // Calculate sum, min, and max
-        for (int num : numbers) {
-            sum += num;
-            if (num < min) min = num;
+        // Calculate sum, min, and max. //using another for loop to calculate required operations
+        for (int num : numbers) {        // for-each loop that iterates through each number in the array.     
+            sum += num;                     //adds current number to sum
+            if (num < min) min = num;  //Updates min and max values by comparing the current number with the existing min and max.
             if (num > max) max = num;
         }
 
-        double average = (double) sum / n;
+        double average = (double) sum / n;   //calculates average, using double for decimal precision
 
         // Print results
         System.out.println("Sum = " + sum);
