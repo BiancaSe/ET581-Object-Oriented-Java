@@ -1,6 +1,6 @@
-/*
+// ET 581 Homework 4,  2D array & nested loops.  Student: Bianca Serpe 
 
-Importing the StringTokenizer class which is used in the code to split 
+/*Importing the StringTokenizer class which is used in the code to split 
 the string Hello World*/
 
 import java.util.StringTokenizer;
@@ -39,7 +39,7 @@ public class HW4 {         //Defining the public class, the main container for t
 
         while (tokenizer.hasMoreTokens()) {  /* while loop to run trough all tokens; picked this one
              becuase it's simple & stops when no more words */
-             
+
             String word = tokenizer.nextToken();
             for (int i = word.length() - 1; i >= 0; i--) {
                 System.out.print(word.charAt(i));
