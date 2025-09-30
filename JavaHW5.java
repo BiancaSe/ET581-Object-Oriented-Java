@@ -32,9 +32,9 @@ public class JavaHW5 {
 
     // 4.  Swap two Integers ( the elements at index1 and index2) in the given array.
     public static void swap(int[] arr, int index1, int index2) {
-        int temp = arr[index1];  // Temporarily store element at index1
-        arr[index1] = arr[index2];  // Assign element at index2 to index1
-        arr[index2] = temp;  // Assign stored element to index2
+        int temp = arr[index1];  // Temporarily stores element at index1
+        arr[index1] = arr[index2];  // Assigns element at index2 to index1
+        arr[index2] = temp;  // Assigns stored element to index2
     }
 
    
@@ -42,17 +42,17 @@ public class JavaHW5 {
         int[] numbers = {12, 45, 7, 89, 34};
         System.out.println(maxArray(numbers));  // Should print the max value: 89
 
-        // Create a 3x4 2D array with random values and print each row
+        // Creating a 3x4 2D array with random values and print each row
         int[][] randomArray = createRandom2DArray(3, 4);
         for (int[] row : randomArray) {
             System.out.println(Arrays.toString(row));
         }
 
-        // Test absoluteDifference method with sample inputs
+        // Testing absoluteDifference method with sample inputs
         System.out.println(absoluteDifference(15, 27));  // Output: 12
         System.out.println(absoluteDifference(30, 10));  // Output: 20
 
-        // Test swap method by swapping elements at index 1 and 3
+        // Testing swap method by swapping elements at index 1 and 3
         int[] swapNumbers = {10, 20, 30, 40, 50};
         swap(swapNumbers, 1, 3);
         System.out.println(Arrays.toString(swapNumbers));  // Should print: [10, 40, 30, 20, 50]
