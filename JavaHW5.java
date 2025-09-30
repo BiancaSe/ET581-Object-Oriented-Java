@@ -13,7 +13,7 @@ public class JavaHW5 {
         return max;  // Return the largest element found
     }
 
-    // Creates and returns a 2D array of size rows x cols filled with random integers from 0 to 100
+    // 2. Create 2D array with random integers values from 0 to 100
     public static int[][] createRandom2DArray(int rows, int cols) {
         int[][] arr = new int[rows][cols];
         for (int i = 0; i < rows; i++) {
@@ -25,20 +25,20 @@ public class JavaHW5 {
         return arr;  // Return the filled 2D array
     }
 
-    // Returns the absolute difference between two integers using Math.abs()
+    // 3. Absolute difference (between two integers using Math.abs())
     public static int absoluteDifference(int a, int b) {
         return Math.abs(a - b);
     }
 
-    // Swaps the elements at index1 and index2 in the given array
+    // 4.  Swap two Integers ( the elements at index1 and index2) in the given array.
     public static void swap(int[] arr, int index1, int index2) {
         int temp = arr[index1];  // Temporarily store element at index1
         arr[index1] = arr[index2];  // Assign element at index2 to index1
         arr[index2] = temp;  // Assign stored element to index2
     }
 
-    // Main method to test the above functions
-    public static void main(String[] args) {
+   
+    public static void main(String[] args) {     // Main method to test the above functions
         int[] numbers = {12, 45, 7, 89, 34};
         System.out.println(maxArray(numbers));  // Should print the max value: 89
 
