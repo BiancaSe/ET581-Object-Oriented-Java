@@ -1,15 +1,13 @@
 
-// ET 581 Homework 7 
-
 package src.qcc;
 
 
-// Base class Book
+// Superclass Book, it demonstartes inheritence base for EBook
 public class Book {
     protected String title;
     protected double price;
 
-    // Constructor
+    // Constructor that initializes title and price
     public Book(String title, double price) {
         this.title = title;
         this.price = price;

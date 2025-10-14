@@ -1,10 +1,12 @@
 package src.qcc;
 
 
-// Library class
+// Superclass Library 
+// It demonstates instance initilazer block & method returning a Book
 public class Library {
 
-    // Instance initializer block — runs before constructor
+    // Instance initializer block (runs evry time before constructor of this class or its subclass
+    
     {
         System.out.println("Library instance block executed");
     }
