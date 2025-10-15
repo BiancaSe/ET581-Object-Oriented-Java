@@ -1,4 +1,4 @@
-package src.qcc;
+package qcc;
 
 
 // Subclass EBook extending Book. It adds new field & overrides showInfo()

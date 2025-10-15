@@ -1,6 +1,6 @@
 // ET 581 Homework 6, 
 
-package src.qcc;
+package qcc;
 
 // Main test class, it tests both Problem 1 and 2, coded as per HM instructions
 public class Main {

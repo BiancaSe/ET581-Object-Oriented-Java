@@ -1,5 +1,5 @@
 
-package src.qcc;
+package qcc;
 
 
 // Superclass Book, it demonstartes inheritence base for EBook

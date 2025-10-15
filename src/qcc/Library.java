@@ -1,4 +1,4 @@
-package src.qcc;
+package qcc;
 
 
 // Superclass Library 
