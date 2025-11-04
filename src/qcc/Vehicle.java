@@ -1,4 +1,4 @@
-// ET 581 Homework 8, Student : Bianca Serpe Date 11/03/2025
+// ET 581 Homework 8, Problem 1 , Student : Bianca Serpe Date 11/03/2025
 package qcc;
 
 
