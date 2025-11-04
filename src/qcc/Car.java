@@ -1,27 +1,24 @@
+// ET 581 Homework 8, Student : Bianca Serpe Date 11/03/2025
+
 package qcc;
 
-
-
-// Subclass Car extending (inherits from) Vehicle
-// Demonstrates: inheritence super(), overriding
+//Concrete subclass Car
 public class Car extends Vehicle {
-    private int doors;  // number of doors for the car
+    private int numberOfDoors;
 
-    // Constructor calls the Superclas (Vehicle) consturctor using super()
-    public Car(String brand, int year, int doors) {
-        super(brand, year); 
-        this.doors = doors;
-        System.out.println("Car created: " + brand + ", doors: " + doors);
+// Constructor to initialize Car attributes
+    public Car(String brand, String model, int year, int numberOfDoors) {
+        super(brand, model, year);
+        this.numberOfDoors = numberOfDoors;
     }
-
-    // Override start() method of Vehicle
-    // This changes the behavior specifically for Car objects
+// Implement abstract methods to provide Car-specific behavior
     @Override
-    public void start() {
-        System.out.println("Car starts");
+    public void drive() {
+        System.out.println("Car is driving smoothly.");
     }
 
-    // If we try to override  displayInfo() the compiler would give us an error
-    // because displayInfo() in Vehicle is final
-    
+    @Override
+    public void stop() {
+        System.out.println("Car stopped at the traffic light.");
+    }
 }

@@ -1,30 +1,25 @@
+// ET 581 Homework 8, Student : Bianca Serpe Date 11/03/2025
 package qcc;
 
 
-
-/** Superclass/ Parent Vehicle / it defines  constructors, 
- * final method (no subclass can override), inheritance */
-
-public class Vehicle {
-    // Fields (instance variables)
-    protected String brand;   // accesible by subclass
+//Abstract base class Vehicle
+public abstract class Vehicle {
+    protected String brand;
+    protected String model;
     protected int year;
 
-    // Constructor: runs when a new Vehicle is created
-    public Vehicle(String brand, int year) {
+    // Constructor to initialize Vehicle attributes
+    public Vehicle(String brand, String model, int year) {
         this.brand = brand;
+        this.model = model;
         this.year = year;
-        System.out.println("Vehicle created: " + brand + ", " + year);
     }
-
-    // Regular Method that can be overriden (not static or final)
+    // concrete Method to start the vehicle
     public void start() {
-        System.out.println("Vehicle starts");
+        System.out.println("Vehicle is starting...");
     }
 
-    // Final method cannot be overridden in subclasses
-    // Demonstates the use of "final" keyword
-    public final void displayInfo() {
-        System.out.println("Brand: " + brand + ", Year: " + year);
-    }
+    // Abstract methods to be implemented by subclasses
+    public abstract void drive();
+    public abstract void stop();
 }
