@@ -1,5 +1,6 @@
 //ET 581 HW9 Problem 2 Student : Bianca Serpe Date: 11/08/2025
 
+// Same as in Probem 1 , all classes are  in this single file for simplicity. The code works as intended.
 
 // This program creates a list of various media items (Books, DVDs, CDs),
 import java.util.*;

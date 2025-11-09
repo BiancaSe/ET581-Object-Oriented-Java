@@ -1,6 +1,10 @@
 
 // ET 581 HW9 Problem 1 Student : Bianca Serpe Date: 11/08/2025
 
+
+// For simoplicity all code is in one file. I was not sure if you wanted separate files for each class.
+// I hope this is acceptable.
+
 import java.util.*;  // import List, ArrayList, Iterator, Random
 
 
