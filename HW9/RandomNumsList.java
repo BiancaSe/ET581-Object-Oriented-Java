@@ -1,5 +1,5 @@
 
-// ET 581 HW9 Problem 1 Student : Bianca Serpe Date: 
+// ET 581 HW9 Problem 1 Student : Bianca Serpe Date: 11/08/2025
 
 import java.util.*;  // import List, ArrayList, Iterator, Random
 
