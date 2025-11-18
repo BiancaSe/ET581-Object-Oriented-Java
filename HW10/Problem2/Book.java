@@ -2,8 +2,8 @@
 // ET581 Homework 10 Problem 2 - Sort Custom class (Book) , Student: Bianca Serpe, Date: 11/17/2025
 
 
-// Homework 10 - Problem 2
-// Simple Book class implementing Comparable so books sort by title
+
+// Book class implementing Comparable so books sort by title
 
 public class Book implements Comparable<Book> {
     String title;
